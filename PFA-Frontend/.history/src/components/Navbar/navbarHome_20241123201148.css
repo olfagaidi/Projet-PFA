@@ -1,0 +1,63 @@
+/* Style pour l'image du logo */
+.logo {
+    height: 60px; /* Vous pouvez ajuster la hauteur selon vos besoins */
+    margin-right: 20px; /* Espacement entre le logo et les autres éléments */
+  }
+  
+  /* Conteneur principal de la barre de navigation */
+  .navbar {
+    display: flex; /* Utilise flexbox pour disposer les éléments */
+    justify-content: space-between; /* Espacement entre les éléments à gauche et à droite */
+    align-items: center; /* Aligne verticalement les éléments */
+    padding: 0 20px; /* Espacement autour de la barre de navigation */
+    background-color: #333; /* Couleur de fond de la barre */
+  }
+  
+  /* Liens de navigation */
+  .nav-links {
+    display: flex; /* Affiche les liens horizontalement */
+    align-items: center; /* Aligne verticalement les liens */
+  }
+  
+  .link {
+    color: #4ECDC4; /* Couleur du texte des liens */
+    text-decoration: none; /* Supprime la décoration par défaut des liens */
+    margin-left: 20px; /* Espace entre chaque lien */
+    font-size: 16px; /* Taille de la police des liens */
+  }
+  
+  .link:hover {
+    text-decoration: underline; /* Ajoute un soulignement au survol */
+  }
+  
+  /* Style pour les boutons (par exemple, de connexion ou d'inscription) */
+  .nav-buttons {
+    display: flex;
+    gap: 15px; /* Espace entre les boutons */
+  }
+  
+  .nav-button {
+    color: #fff; /* Couleur du texte des boutons */
+    text-decoration: none;
+    padding: 8px 15px; /* Espacement interne des boutons */
+    background-color: #4ECDC4; /* Couleur de fond des boutons */
+    border-radius: 5px; /* Coins arrondis */
+    font-size: 14px; /* Taille de la police des boutons */
+  }
+  
+  .nav-button:hover {
+    background-color: #39b3a1; /* Change la couleur de fond au survol */
+  }
+  
+  /* Pour le logo à gauche et les liens de navigation à droite */
+  .navbar-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  

@@ -1,0 +1,146 @@
+/* profile.css */
+
+body {
+    background-color: #eee;
+    font-family: Arial, sans-serif;
+  }
+  
+  section {
+    padding: 20px 0;
+  }
+  
+  .MDBContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .MDBCard {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .MDBCardBody {
+    padding: 20px;
+  }
+  
+  .MDBCardImage {
+    border: 3px solid #ddd;
+    padding: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .text-muted {
+    color: #282929 !important;
+  }
+  
+  .text-center {
+    text-align: center !important;
+  }
+  
+  .text-primary {
+    color:  #282929 !important;
+  }
+  
+  .font-italic {
+    font-style: italic;
+  }
+  
+  .mb-1, .my-1 {
+    margin-bottom: 0.25rem !important;
+  }
+  
+  .mb-2, .my-2 {
+    margin-bottom: 0.5rem !important;
+  }
+  
+  .mb-4, .my-4 {
+    margin-bottom: 1.5rem !important;
+  }
+  
+  .rounded {
+    border-radius: 10px !important;
+  }
+  
+  .rounded-circle {
+    border-radius: 50% !important;
+  }
+  
+  .d-flex {
+    display: flex !important;
+  }
+  
+  .align-items-center {
+    align-items: center !important;
+  }
+  
+  .justify-content-center {
+    justify-content: center !important;
+  }
+  
+  .ms-1 {
+    margin-left: 0.25rem !important;
+  }
+  
+  /* Progress Bar */
+  .MDBProgress {
+    height: 6px;
+    background-color: #e9ecef;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .MDBProgressBar {
+    background-color: #282929 ;
+    border-radius: 5px;
+  }
+  
+  .MDBListGroupItem {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .MDBIcon {
+    margin-right: 10px;
+    font-size: 1.2em;
+  }
+  
+  /* Profile Information Card */
+  .MDBCol-lg-8 .MDBCardText {
+    font-weight: 500;
+  }
+  
+  /* Buttons */
+  .MDBBtn {
+    background-color:  #282929 ;
+    border: none;
+    color: #fff;
+    border-radius: 20px;
+    padding: 8px 16px;
+    font-size: 0.875rem;
+    transition: background-color 0.3s;
+  }
+  
+  .MDBBtn:hover {
+    background-color:  #282929 ;
+  }
+  
+  .MDBBtn.outline {
+    background-color: transparent;
+    color:  #282929 ;
+    border: 1px solid  #282929;
+  }
+  
+  .MDBBtn.outline:hover {
+    background-color:  #282929 ;
+    color: #fff;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 992px) {
+    .MDBContainer {
+      padding: 0 15px;
+    }
+  }
+  

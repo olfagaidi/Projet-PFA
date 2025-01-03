@@ -1,0 +1,68 @@
+/* navbarHome.css */
+
+/* Style pour le logo */
+.logo {
+    height: 60px; /* Hauteur de l'image du logo */
+    margin-right: 20px; /* Espace à droite du logo */
+  }
+  
+  /* Style pour les liens */
+  .link {
+    color: #4ECDC4; /* Couleur des liens */
+    text-decoration: none; /* Supprimer la soulignée sur les liens */
+    margin-right: 15px; /* Espacement entre les liens */
+    font-size: 16px; /* Taille de la police des liens */
+  }
+  
+  .link:hover {
+    color: #333; /* Couleur des liens au survol */
+    text-decoration: underline; /* Ajoute une ligne sous les liens lors du survol */
+  }
+  
+  /* Permet à un élément de se développer dans une ligne flexible */
+ 
+  
+  /* Style pour les boutons de la navbar */
+  .nav-button {
+    color: #fff; /* Couleur du texte des boutons */
+    text-decoration: none; /* Enlever la souligné sur les boutons */
+    font-size: 16px;
+    padding: 8px 15px; /* Espacement interne des boutons */
+    border-radius: 5px; /* Bords arrondis */
+    transition: background-color 0.3s ease; /* Transition de la couleur de fond */
+  }
+  
+  .nav-button:hover {
+    background-color: #4ECDC4; /* Couleur de fond au survol */
+    color: #333; /* Changer la couleur du texte lors du survol */
+  }
+  
+  .nav-button:active {
+    background-color: #3A8E8C; /* Couleur au clic sur le bouton */
+  }
+  
+  /* Style pour la navbar (élément de navigation) */
+  .navbar-home {
+    display: flex;
+    justify-content: space-between; /* Espacement entre les éléments de la navbar */
+    align-items: center; /* Centrer verticalement */
+    padding: 10px 20px;
+    background-color: #333; /* Couleur de fond foncée */
+    color: white; /* Couleur du texte */
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Pour que la navbar reste en haut */
+  }
+  
+  .navbar-home .nav-links {
+    display: flex; /* Met les liens côte à côte */
+  }
+  
+  .navbar-home .nav-links .nav-button {
+    margin-right: 15px; /* Espacement entre les boutons de la navbar */
+  }
+  
+  .navbar-home .nav-links .nav-button:hover {
+    background-color: #4ECDC4; /* Survol des boutons */
+  }
+  

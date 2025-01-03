@@ -1,0 +1,98 @@
+/* Login.css */
+
+body {
+  background-color: #f4f7f6; /* Fond de page clair pour contraste */
+  color: #413e3e; /* Texte sombre pour un meilleur contraste */
+  font-family: 'Ruda', sans-serif;
+  padding: 0 !important;
+  margin: 0 !important;
+  font-size: 14px;
+}
+
+.form-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  background-color: #4ECDC4;
+  color: white;
+  margin: 0;
+  padding: 15px 0;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.form-group {
+  margin: 15px 0;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  box-sizing: border-box; /* Assurer que le padding ne dépasse pas la largeur */
+  transition: border-color 0.3s ease;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+  border-color: #4ECDC4;
+  outline: none;
+}
+
+input[type="email"]::placeholder,
+input[type="password"]::placeholder {
+  color: #aaa;
+  font-size: 14px; /* Réduit la taille du placeholder */
+}
+
+.remember-me {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #4ECDC4;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px; /* Espacement entre le bouton et le champ "se souvenir de moi" */
+}
+
+.submit-button:hover {
+  background-color: #48bcb4;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+@media (max-width: 480px) {
+  .form-container {
+      width: 90%;
+  }
+}

@@ -1,0 +1,27 @@
+/* Navbar.css */
+.logo {
+  width: 80px; /* Ajustez cette valeur selon vos besoins */
+  margin-right: 50px;
+}
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Assurez-vous que l'image est centrée verticalement */
+}
+
+/* Navbar.css */
+.nav-links {
+  flex-grow: 1;         /* Pour étirer les éléments sur toute la largeur */
+}
+
+.link {
+  color: #4ECDC4;
+  text-decoration: none;
+  margin-right: 15px;  /* Espacement entre les liens */
+}
+
+  .grow {
+    flex-grow: 1;
+  }
+
+  

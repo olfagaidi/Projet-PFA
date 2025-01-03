@@ -1,0 +1,162 @@
+.categories-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+    margin: 30px;
+    align-items: center;
+}
+
+.category-container {
+    width: 346px;
+    height: 191px;
+    flex-shrink: 0;
+    border-radius: 22px;
+    background: #FFF;
+    display: flex;
+    box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.25);
+}
+
+.category-container .left-part {
+    width: 64%;
+    height: 100%;
+    margin-right: 6%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.category-container .category-title {
+    font-size: 1.4em;
+    font-weight: 600;
+}
+
+.category-container .bottom-part {
+    color: rgb(75, 75, 211);
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.category-container .bottom-part:hover {
+    color: rgb(93, 93, 255);
+    text-decoration: underline;
+}
+
+.category-container .right-part {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.category-container .right-part img {
+    width: 100%;
+}
+
+.nsihet-mjarreb-part {
+    width: 100%;
+    padding: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nsihet-mjarreb-part .part-label {
+    color: rgba(143, 143, 143, 0.38);
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.nsihet-mjarreb-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 600px;
+    height: 300px;
+    flex-shrink: 0;
+    border-radius: 22px;
+    background: #FFF;
+    box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.25);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+
+.nsihet-mjarreb-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .image-list {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+  }
+  
+  .image-list img {
+    width: 80%; /* Ajustez la taille selon vos préférences */
+    margin: 0 5px;
+    align-items: center;
+    border-radius: 8px;
+  }
+  
+  .scroll-button {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+  }
+  
+  .scroll-button.left {
+    left: 0;
+  }
+  
+  .scroll-button.right {
+    right: 0;
+  }
+
+
+  /* Section Nous sommes qui */
+  .about-us-section {
+    background-color: #ffffff;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 22px;
+    box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.25);
+  }
+ 
+  .about-us-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .about-us-image img {
+    width: 350px;
+    border-radius: 10px;
+    margin-right: 40px;
+  }
+   
+  .about-us-text  h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .about-us-text p {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .about-us-text .cta-button {
+    margin-top: 20px;
+  }
+  

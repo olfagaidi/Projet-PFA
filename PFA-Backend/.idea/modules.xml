@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Authentification/Authentification.iml" filepath="$PROJECT_DIR$/Authentification/Authentification.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Event/Event.iml" filepath="$PROJECT_DIR$/Event/Event.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Profile/Profile.iml" filepath="$PROJECT_DIR$/Profile/Profile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Publication/Publication.iml" filepath="$PROJECT_DIR$/Publication/Publication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ms-discvorey-service/ms-discvorey-service.iml" filepath="$PROJECT_DIR$/ms-discvorey-service/ms-discvorey-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ms-geteway-service/ms-geteway-service.iml" filepath="$PROJECT_DIR$/ms-geteway-service/ms-geteway-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pfa-ms.iml" filepath="$PROJECT_DIR$/pfa-ms.iml" />
+    </modules>
+  </component>
+</project>

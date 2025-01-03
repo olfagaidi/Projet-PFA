@@ -1,0 +1,223 @@
+/* Style général de la page */
+.publication-page {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header h1 {
+    text-align: center;
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+  
+  /* Formulaire de publication */
+  .publication-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
+    margin-bottom: 30px;
+  }
+  
+  .input-field,
+  .textarea-field {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+  }
+  
+  .input-field:focus,
+  .textarea-field:focus {
+    border-color: #57bd84;
+    outline: none;
+  }
+  
+  .textarea-field {
+    height: 80px;
+    resize: none;
+  }
+  
+  .submit-btn {
+    background-color: #57bd84;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .submit-btn:hover:not(:disabled) {
+    background-color: #4fa672;
+  }
+  
+  /* Liste des publications */
+  .posts-list {
+    margin-top: 40px;
+  }
+  
+  .post {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .post-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+  }
+  
+  .post-header h3 {
+    margin: 0;
+    font-size: 1.4rem;
+    color: #333;
+  }
+  
+  .post-header span {
+    font-size: 0.9rem;
+    color: #888;
+  }
+  
+  .post p {
+    color: #555;
+    font-size: 1rem;
+    line-height: 0.6;
+  }
+  
+  .post-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    font-size: 0.9rem;
+    color: #888;
+  }
+  .post-image {
+      margin-top: 10px;
+      max-width: 50%;
+      height: auto;
+      border-radius: 8px;
+    }
+  
+  /* Animation de la publication */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .post {
+    animation: fadeIn 0.3s ease-out;
+  }
+  
+  /* Mobile Responsiveness */
+  @media (max-width: 768px) {
+    .publication-page {
+      padding: 15px;
+    }
+  
+    .input-field,
+    .textarea-field {
+      font-size: 0.9rem;
+    }
+  
+    .submit-btn {
+      width: 100%;
+    }
+  
+    .post {
+      padding: 15px;
+    }
+  }
+  
+  /* Styles pour les réactions */
+  .reactions,
+  .comment-reactions {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .reactions button,
+  .comment-reactions button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    padding: 5px;
+  }
+  
+  .reactions button:hover,
+  .comment-reactions button:hover {
+    font-size: 1.4rem;
+    transition: all 0.2s;
+  }
+  
+  /* Section des commentaires */
+  .comment-section {
+    display: flex;
+    margin-top: 15px;
+    gap: 10px;
+  }
+  
+  .comment-input {
+    width: 80%;
+    padding: 8px;
+    text-align: start;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  .comment-btn {
+    padding: 6px 12px;
+    background-color: #57bd84;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .comment-btn:hover {
+    background-color: #49a56a;
+  }
+  
+  .comments {
+    margin-top: 20px;
+  
+  }
+  
+  .comment {
+    margin-bottom: 10px;
+    text-align: start;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+  }
+  

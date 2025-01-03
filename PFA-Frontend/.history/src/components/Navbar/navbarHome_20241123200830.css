@@ -1,0 +1,59 @@
+/* navbarHome.css */
+
+/* Style pour le logo */
+.logo {
+    width: 80px; /* Ajuste la largeur du logo */
+    margin-right: 50px; /* Espace à droite du logo */
+  }
+  
+  /* Style pour la barre de navigation (Toolbar) */
+  .toolbar {
+    display: flex; 
+    justify-content: space-between; /* Sépare les éléments à gauche et à droite */
+    align-items: center; /* Assure que l'image (logo) est centrée verticalement */
+    padding: 10px 20px; /* Espacement interne de la barre de navigation */
+    background-color: #333; /* Couleur de fond de la barre de navigation */
+  }
+  
+  /* Style pour les liens de la navbar */
+  .nav-links {
+    flex-grow: 1; /* Permet aux liens de s'étirer pour occuper l'espace disponible */
+  }
+  
+  /* Style des liens dans la navbar */
+  .link {
+    color: #4ECDC4; /* Couleur verte pour les liens */
+    text-decoration: none; /* Enlève le soulignement des liens */
+    margin-right: 15px; /* Espacement entre les liens */
+    font-size: 16px; /* Taille de la police des liens */
+  }
+  
+  .link:hover {
+    color: #fff; /* Change la couleur au survol */
+    text-decoration: underline; /* Ajoute une ligne sous le lien lors du survol */
+  }
+  
+  /* Permet à un élément de se développer dans une disposition flexible */
+  .grow {
+    flex-grow: 1; /* Utilisé pour faire en sorte que certains éléments prennent tout l'espace disponible */
+  }
+  
+  /* Style pour les boutons de la navbar */
+  .nav-button {
+    color: #fff; /* Couleur des boutons */
+    text-decoration: none; /* Enlever le souligné des boutons */
+    font-size: 16px;
+    padding: 8px 15px; /* Espacement interne des boutons */
+    border-radius: 5px; /* Bords arrondis pour les boutons */
+    transition: background-color 0.3s ease; /* Transition pour le changement de couleur */
+  }
+  
+  .nav-button:hover {
+    background-color: #4ECDC4; /* Couleur de fond lors du survol */
+    color: #333; /* Couleur du texte lors du survol */
+  }
+  
+  .nav-button:active {
+    background-color: #3A8E8C; /* Couleur au clic sur le bouton */
+  }
+  
